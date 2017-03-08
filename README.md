@@ -22,7 +22,7 @@ Meigen.pick("path/to/einstein")
 # => "I think you would learn mathematics faster."
 ```
 
-Meigen gives you just one line in random order. Enjoy your favorite maxims :)
+Meigen gives you just one line in a random order. Enjoy your favorite maxims :)
 
 ## Installation
 
