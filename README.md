@@ -18,7 +18,7 @@ Yeah, they are Einstein's maxims. You like them don't you?
 Anyway, pass `Meigen.pick` to the text file's path:
 
 ```elixir
-Meigen.pick("path/to/einstein")
+Meigen.pick("path/to/einstein.txt")
 # => "I think you would learn mathematics faster."
 ```
 
