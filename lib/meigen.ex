@@ -21,3 +21,9 @@ defmodule Meigen do
     meigen
   end
 end
+
+defmodule Meigen.CLI do
+  def main(file) do
+    IO.puts Meigen.pick(file)
+  end
+end
