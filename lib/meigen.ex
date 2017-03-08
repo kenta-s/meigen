@@ -15,4 +15,9 @@ defmodule Meigen do
   def hello do
     :world
   end
+
+  def pick(file) do
+    [meigen] = File.stream!(file) |> Enum.to_list |> Enum.shuffle |> Enum.take(1)
+    meigen
+  end
 end
