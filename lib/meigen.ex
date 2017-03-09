@@ -1,7 +1,7 @@
 defmodule Meigen do
   def pick(file) do
     [meigen] = File.stream!(file) |> Enum.to_list |> Enum.shuffle |> Enum.take(1)
-    meigen
+    String.trim(meigen)
   end
 end
 
